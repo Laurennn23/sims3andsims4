@@ -10,37 +10,37 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-  .fakeimg {
-    height: 200px;
-    background: hsl(170, 170, 170);
-  }
+    .fakeimg {
+      height: 200px;
+      background: hsl(170, 170, 170);
+    }
+    .nav-link {
+      padding-left: 0;
+    }
+    .nav-pills .nav-item {
+      border: none;
+    }
+    .col-sm-3 {
+      background-color: transparent;
+      border: none;
+    }
   </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-sm bg-success navbar-light sticky-top">
-    <a class="navbar-brand" href="index.html"><img src="LOGO.png" wirth=10%></a>
+    <a class="navbar-brand" href="index.html"><img src="LOGO.png" width="10%"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"><b>首頁</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="introduce3.html"><b>模3介紹</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="introduce4.html"><b>模4介紹</b></a>
-        </li>    
-        <li class="nav-item">
-          <a class="nav-link" href="difference.html"><b>差異</b></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mypoint.html"><b>個人觀點</b></a>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="index.html"><b>首頁</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="introduce3.html"><b>模3介紹</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="introduce4.html"><b>模4介紹</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="difference.html"><b>差異</b></a></li>
+        <li class="nav-item"><a class="nav-link" href="mypoint.html"><b>個人觀點</b></a></li>
         <li class="nav-item dropdown">
-          <a  class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" ><b>參考資料</b></a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"><b>參考資料</b></a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F%E7%B3%BB%E5%88%97">維基百科</a>
             <a class="dropdown-item" href="https://sims.fandom.com/wiki/The_Sims_Wiki">模擬wiki</a>
@@ -51,66 +51,58 @@
     </div>  
   </nav>
 
-<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>The Sims系列</h2>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F_(%E6%B8%B8%E6%88%8F)">模擬市民</a>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F2">模擬市民2</a>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%B8%82%E6%B0%913">模擬市民3</a>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%B8%82%E6%B0%914">模擬市民4</a>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F%E5%85%8D%E8%B4%B9%E7%89%88">模擬市民免費版</a>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F%E7%A7%BB%E5%8A%A8%E7%89%88">模擬市民行動版</a>
-      <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E6%97%B6%E5%85%89">模擬時光</a>
-      <h2>相關網站</h2>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.origin.com/twn/zh-tw/store/browse?fq=franchise:the-sims&sort=rank%20desc">Origin</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.ea.com/games/the-sims">EA官方網站</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
+  <div class="container-fluid" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-3">
+        <h2>The Sims系列</h2>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F_(%E6%B8%B8%E6%88%8F)">模擬市民</a>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F2">模擬市民2</a>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%B8%82%E6%B0%913">模擬市民3</a>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%93%AC%E5%B8%82%E6%B0%914">模擬市民4</a>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F%E5%85%8D%E8%B4%B9%E7%89%88">模擬市民免費版</a>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E4%BA%BA%E7%94%9F%E7%A7%BB%E5%8A%A8%E7%89%88">模擬市民行動版</a>
+        <a class="nav-link" href="https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E6%97%B6%E5%85%89">模擬時光</a>
+        <h2>相關網站</h2>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item"><a class="nav-link" href="https://www.origin.com/twn/zh-tw/store/browse?fq=franchise:the-sims&sort=rank%20desc">Origin</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.ea.com/games/the-sims">EA官方網站</a></li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
   
-<div class="container my-5">
-  <div class="row justify-content-center">
-    <div class="col-md-8 text-center">
+ <div class="col-sm-9">
+        <h2><b>結果</b></h2>
+        <h4>如果是我，我會推薦...<b>模擬市民3！！！</b></h4>
 
-      <h2><b>結果</b></h2>
-      <h4>如果是我，我會推薦...<b>模擬市民3！！！</b></h4>
+        <img src="university_blog_news.gif" width="800" class="img-fluid my-3" alt="模擬市民3 學園擴充包">
+        <p>在模擬市民3，社區感覺比較像社區。因為滑鼠點一點就能操控人物到社區的各個角落。</p>
+        <p>在社區內，如果做壞事有機率會被制止（裸奔會被警察罰錢），讓人感覺很真實。</p>
 
-      <img src="university_blog_news.gif" width="800" class="img-fluid my-3" alt="模擬市民3 學園擴充包">
-      <p>在模擬市民3，社區感覺比較像社區。因為滑鼠點一點就能操控人物到社區的各個角落。</p>
-      <p>在社區內，如果做壞事有機率會被制止（裸奔會被警察罰錢），讓人感覺很真實。</p>
+        <img src="005.gif" width="800" class="img-fluid my-3" alt="模擬市民3 遊戲畫面">
+        <p>調色盤的功能很好玩，如果衣服缺顏色的話，自己調就有了。還能選材質，一件衣服能變出不同花樣。</p>
+        <p>就算只有基本的遊戲片也能享受遊戲所帶來的樂趣。</p>
+        <p>我玩了快一個月還沒玩膩哈哈（模擬市民4因為劇情的部分薄弱，對我來說比較不耐玩）</p>
 
-      <img src="005.gif" width="800" class="img-fluid my-3" alt="模擬市民3 遊戲畫面">
-      <p>調色盤的功能很好玩，如果衣服缺顏色的話，自己調就有了。還能選材質，一件衣服能變出不同花樣。</p>
-      <p>就算只有基本的遊戲片也能享受遊戲所帶來的樂趣。</p>
-      <p>我玩了快一個月還沒玩膩哈哈（模擬市民4因為劇情的部分薄弱，對我來說比較不耐玩）</p>
+        <h4>其實模擬市民4還有這些優點</h4>
+        <p>如果喜歡打扮<s>奇X暖暖之類的</s>的話，模擬市民4的創建模擬市民功能會讓你欲罷不能！</p>
+        <p><s>每捏一個人就浪費我1個小時，模擬市民真討厭</s></p>
 
-      <h4>其實模擬市民4還有這些優點</h4>
-      <p>如果喜歡打扮<s>奇X暖暖之類的</s>的話，模擬市民4的創建模擬市民功能會讓你欲罷不能！</p>
-      <p><s>每捏一個人就浪費我1個小時，模擬市民真討厭</s></p>
+        <img src="cas.gif" width="800" class="img-fluid my-3" alt="模擬市民4 CAS 畫面">
+        <p>喜歡蓋房子的話，模擬市民4的建築選擇更有彈性，能夠蓋出各種形狀的房子。</p>
+        <p>家具也有更多選擇，可以將自己的房子改造成夢想中的樣子。</p>
 
-      <img src="cas.gif" width="800" class="img-fluid my-3" alt="模擬市民4 CAS 畫面">
-      <p>喜歡蓋房子的話，模擬市民4的建築選擇更有彈性，能夠蓋出各種形狀的房子。</p>
-      <p>家具也有更多選擇，可以將自己的房子改造成夢想中的樣子。</p>
+        <img src="building.gif" width="800" class="img-fluid my-3" alt="模擬市民4 建築畫面">
+        <p>現在遊戲還在發展中，以後可能會有更多功能（像模擬市民3的未來世界）。</p>
+        <p>目前資料片已出到<b>鄉村生活</b>，有興趣<s>提前退休</s>的人可以買來玩玩看！</p>
 
-      <img src="building.gif" width="800" class="img-fluid my-3" alt="模擬市民4 建築畫面">
-      <p>現在遊戲還在發展中，以後可能會有更多功能（像模擬市民3的未來世界）。</p>
-      <p>目前資料片已出到<b>鄉村生活</b>，有興趣<s>提前退休</s>的人可以買來玩玩看！</p>
+        <p><b>從6月29日至7月7日，模擬市民4有夏日音樂派對，<a href="https://www.ea.com/games/the-sims/sims-sessions" target="_blank">詳情點擊</a></b></p>
+        <p>（雖然只有三位歌手表演，不過對我來說還蠻有趣的）</p>
 
-      <p><b>從6月29日至7月7日，模擬市民4有夏日音樂派對，<a href="https://www.ea.com/games/the-sims/sims-sessions" target="_blank">詳情點擊</a></b></p>
-      <p>（雖然只有三位歌手表演，不過對我來說還蠻有趣的）</p>
-
-      <h3>青菜蘿蔔各有所好，希望大家都能創造心中最愛的模擬市民。</h3>
-      <h3><s>不過在那之前你要存夠錢買資料片</s></h3>
-
+        <h3>青菜蘿蔔各有所好，希望大家都能創造心中最愛的模擬市民。</h3>
+        <h3><s>不過在那之前你要存夠錢買資料片</s></h3>
+      </div>
     </div>
   </div>
-</div>
 
 
 
